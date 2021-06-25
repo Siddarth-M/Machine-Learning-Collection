@@ -2,17 +2,6 @@
 Implementation of SVM using cvxopt package. Implementation uses 
 soft margin and I've defined linear, polynomial and gaussian kernels.
 
-To understand the theory (which is a bit challenging) I recommend reading the following:
-http://cs229.stanford.edu/notes/cs229-notes3.pdf
-https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU (Lectures 6,7 by Andrew Ng)
-
-To understand how to reformulate the optimization problem we obtain
-to get the input to cvxopt QP solver this blogpost can be useful:
-https://xavierbourretsicotte.github.io/SVM_implementation.html
-
-Programmed by Aladdin Persson <aladdin.persson at hotmail dot com>
-*    2020-04-26 Initial coding
-
 """
 
 import numpy as np
