@@ -24,9 +24,7 @@ class LogisticRegression:
 
             # calculate cost
             cost = (
-                -1
-                / self.m
-                * np.sum(y * np.log(y_predict) + (1 - y) * np.log(1 - y_predict))
+                -1/ self.m* np.sum(y * np.log(y_predict) + (1 - y) * np.log(1 - y_predict))
             )
 
             # back prop / gradient calculations
@@ -51,7 +49,6 @@ class LogisticRegression:
 
     def sigmoid(self, z):
         return 1 / (1 + np.exp(-z))
-
 
 if __name__ == "__main__":
     np.random.seed(1)
