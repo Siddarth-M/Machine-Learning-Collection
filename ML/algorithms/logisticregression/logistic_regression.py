@@ -5,7 +5,6 @@ From scratch implementation of Logistic Regression
 import numpy as np
 from sklearn.datasets import make_blobs
 
-
 class LogisticRegression:
     def __init__(self, X, learning_rate=0.1, num_iters=10000):
         self.lr = learning_rate
