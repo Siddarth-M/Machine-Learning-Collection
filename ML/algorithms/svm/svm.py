@@ -1,5 +1,5 @@
 """
-Implementation of SVM using cvxopt package. Implementation uses 
+SUPPORT VECTOR MACHINES implementation using cvxopt package. Implementation uses 
 soft margin and I've defined linear, polynomial and gaussian kernels.
 
 """
