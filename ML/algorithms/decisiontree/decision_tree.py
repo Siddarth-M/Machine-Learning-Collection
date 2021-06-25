@@ -1,9 +1,5 @@
 """
-Author: Philip Andreadis
-e-mail: philip_andreadis@hotmail.com
-
-
-Implementation of Decision Tree model from scratch.
+Implementation of DECISION TREE model from scratch.
 Metric used to apply the split on the data is the Gini index which is calculated for each feature's single value
 in order to find the best split on each step. This means there is room for improvement performance wise as this
 process is O(n^2) and can be reduced to linear complexity.
