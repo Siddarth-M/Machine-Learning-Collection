@@ -10,13 +10,8 @@ Where the classes are 0, 1, 2, etc. Then an example run looks like:
     NB.fit(X)
     predictions = NB.predict(X)
 
-Programmed by Aladdin Persson <aladdin.persson at hotmail dot com>
-*    2020-04-21 Initial coding
-
 """
 import numpy as np
-
-
 class NaiveBayes:
     def __init__(self, X, y):
         self.num_examples, self.num_features = X.shape
