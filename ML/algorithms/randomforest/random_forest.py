@@ -1,9 +1,5 @@
 """
-Author: Philip Andreadis
-e-mail: philip_andreadis@hotmail.com
-
-
-Implementation of Random Forest model from scratch.
+RANDOM FOREST from Scratch
 The DecisionTree class from this project is used for generating the trees of the random forest.
 This class remains with no changes as the dataset is split into a number of folds with a random subset of features on which each tree is trained on.
 As a result each tree is trained on a different group of the dataset in order to avoid correlation between them.
